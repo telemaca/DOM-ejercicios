@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estaciones del año</title>
+</head>
+<body>
+
+    <div class="season-name-wrapper">
+        <h1 id="season-name"></h1>
+    </div>
+
+    <div class="input-wrapper">
+        <div class="first">
+            <label for="date">Elegí una fecha: </label>
+            <input type="date" name="date" id="date" min="2020-01-01" max="2020-12-31">
+        </div>
+        <div>
+            <label for="hemisphere">¿Qué hemisferio?</label>
+            <select name="hemisphere" class="hemispheres">
+            <option class="">SUR</option>
+            <option class="">NORTE</option>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

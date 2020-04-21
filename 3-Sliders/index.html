@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Color Sliders</title>
+</head>
+<body>
+
+    <button class="change-color-mode-btn">Cambiar a HSL</button>
+    
+    <div class="sliders-container rgb">
+        <div class="range-container">
+            <label for="r-value">R</label>
+            <input type="range" name="r-value" id="r-value" min="0" max="255" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-R-value value">128</p>
+        </div>
+        
+        <div class="range-container">
+            <label for="g-value">G</label>
+            <input type="range" name="g-value" id="g-value" min="0" max="255" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-G-value value">128</p>
+        </div>
+        
+        <div class="range-container">
+            <label for="b-value">B</label>
+            <input type="range" name="b-value" id="b-value" min="0" max="255" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-B-value value">128</p>
+        </div>
+
+        <div class="final-value-container">
+            <p class="text">Color:</p>
+            <p class="final-value-rgb value">rgb(128, 128, 128)</p>
+        </div>
+    </div>
+
+    <div class="sliders-container hsl">
+        <div class="range-container">
+            <label for="h-value">H</label>
+            <input type="range" name="h-value" id="h-value" min="0" max="360" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-H-value value">180</p>
+        </div>
+        
+        <div class="range-container">
+            <label for="S-value">S</label>
+            <input type="range" name="s-value" id="s-value" min="0" max="100" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-S-value value">50</p>
+        </div>
+        
+        <div class="range-container">
+            <label for="L-value">L</label>
+            <input type="range" name="l-value" id="l-value" min="0" max="100" class="range">
+            <p class="text">Valor actual:</p>
+            <p class="current-L-value value">50</p>
+        </div>
+
+        <div class="final-value-container">
+            <p class="text">Color:</p>
+            <p class="final-value-hsl value">hsl(180, 50%, 50%)</p>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

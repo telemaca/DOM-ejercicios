@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(imgs/winter.jpg); */
+    background-size: cover;
+}
+
+.input-wrapper {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.first {
+    margin-bottom: 10px;
+}
+
+label {
+    font-family: "Raleway";
+    font-size: 30px;
+    color: honeydew;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+input,
+select {
+    font-family: "Raleway";
+    font-size: 26px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 0 8px;
+}
+
+.season-name-wrapper {
+    position: absolute;
+    top: 150px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Raleway";
+    font-size: 60px;
+    padding: 20px 30px;
+    letter-spacing: 10px;
+}
